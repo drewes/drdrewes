@@ -12,9 +12,11 @@
     "react-dom": "^16.13.1"
   },
   "devDependencies": {
+    "autoprefixer": "^9",
+    "postcss": "^7",
     "postcss-flexbugs-fixes": "4.2.1",
     "postcss-preset-env": "^6.7.0",
-    "tailwindcss": "^1.7.4"
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat"
   },
   "license": "MIT"
 }
