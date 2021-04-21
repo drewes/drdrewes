@@ -1,0 +1,19 @@
+{
+  "name": "Dr Erika Drewes",
+  "short_name": "Dr Erika Drewes",
+  "icons": [
+    {
+      "src": "/favicons/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicons/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#B82E61",
+  "background_color": "#003D6E",
+  "display": "standalone"
+}

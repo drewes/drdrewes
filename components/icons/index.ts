@@ -1,0 +1,5 @@
+export { default as CheckIcon } from './CheckIcon'
+export { default as MailIcon } from './MailIcon'
+export { default as MenuIcon } from './MenuIcon'
+export { default as PhoneIcon } from './PhoneIcon'
+export { default as XIcon } from './XIcon'
