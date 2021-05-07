@@ -1,11 +1,10 @@
 import { useRouter } from 'next/router'
 import ErrorPage from 'next/error'
-import {Layout, Container} from '@/components/common'
-import {PostTitle, PostHeader, PostBody} from '@/components/blog'
-import {Header} from '@/components/ui'
+import { Layout, Container } from '@/components/common'
+import { PostTitle, PostHeader, PostBody } from '@/components/blog'
+import { Header } from '@/components/ui'
 import { getPostBySlug, getAllPosts } from '@/lib/api'
 import Head from 'next/head'
-import { CMS_NAME } from '@/lib/constants'
 import markdownToHtml from '@/lib/markdownToHtml'
 import PostType from '@/types/post'
 
@@ -31,7 +30,7 @@ const Post = ({ post, morePosts, preview }: Props) => {
             <article className="mb-32">
               <Head>
                 <title>
-                  {post.title} | Next.js Blog Example with {CMS_NAME}
+                  {post.title} | Dr Drewes Blog
                 </title>
                 <meta property="og:image" content={post.ogImage.url} />
               </Head>
