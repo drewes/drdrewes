@@ -1,17 +1,17 @@
 import Head from 'next/head'
-import { CMS_NAME, HOME_OG_IMAGE_URL } from '@/lib/constants'
+import { HOME_OG_IMAGE_URL } from '@/lib/constants'
 
 const Meta = () => {
   return (
     <Head>
-        <link
-          rel="preload"
-          href="/fonts/tenorsans-regular.woff2"
-          as="font"
-          type="font/woff2"
-          crossOrigin="anonymous"
-        />
-        <link
+      <link
+        rel="preload"
+        href="/fonts/tenorsans-regular.woff2"
+        as="font"
+        type="font/woff2"
+        crossOrigin="anonymous"
+      />
+      <link
         rel="apple-touch-icon"
         sizes="180x180"
         href="/favicons/apple-touch-icon.png"
@@ -41,7 +41,7 @@ const Meta = () => {
       <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
       <meta
         name="description"
-        content={`A statically generated blog example using Next.js and ${CMS_NAME}.`}
+        content="Dr Erika Drewes. Faith, hope and love."
       />
       <meta property="og:image" content={HOME_OG_IMAGE_URL} />
     </Head>
