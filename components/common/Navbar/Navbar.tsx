@@ -4,7 +4,8 @@ import { MenuIcon, XIcon } from '@/components/icons'
 import { Fragment } from 'react'
 
 const navigation = [
-  { name: 'About', href: '/about' }
+  { name: 'About', href: '/about' },
+  { name: 'Contact us', href: '/contact' }
 ]
 
 const Navbar = () => {
@@ -41,10 +42,10 @@ const Navbar = () => {
             <div className='hidden md:block text-right'>
                 <span className='inline-flex rounded-md shadow-md ring-1 ring-black ring-opacity-5'>
                   <a
-                    href='/contact'
+                    href='/web/login'
                     className='inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:bg-gray-50'
                   >
-                    Contact
+                    Sign in
                   </a>
                 </span>
             </div>
@@ -90,10 +91,10 @@ const Navbar = () => {
                   ))}
                 </div>
                 <a
-                  href='/contact'
+                  href='/web/login'
                   className='block w-full px-5 py-3 text-center font-medium text-indigo-600 bg-gray-50 hover:bg-gray-100'
                 >
-                  Contact
+                  Sign in
                 </a>
               </div>
             </Popover.Panel>
